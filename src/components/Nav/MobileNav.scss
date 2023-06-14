@@ -1,0 +1,45 @@
+.mobile-modal {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  padding: 2rem;
+}
+
+.nav-logo {
+  width: 80px;
+  border-radius: 99px;
+  cursor: pointer;
+}
+
+.mobile-nav-list {
+  background-color: white;
+  list-style: none;
+  height: 100vh;
+  width: 100%;
+}
+
+.mobile-nav-links {
+  font-size: 3rem;
+  color: black;
+  text-decoration: none;
+}
+
+.mobile-nav-links:hover,
+.mobile-close:hover {
+  color: silver;
+  cursor: pointer;
+}
+
+.wrapper-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper-bottom {
+  margin-top: 3rem;
+}
+
+.mobile-close {
+  font-size: 2rem;
+}
