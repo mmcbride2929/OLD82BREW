@@ -19,7 +19,7 @@ const Visit = () => {
           </div>
           <div className="details-section">
             <h1>Phone</h1>
-            <p>330-448-2145</p>
+            <p>330-123-1235</p>
           </div>
         </div>
       </div>

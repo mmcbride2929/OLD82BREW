@@ -9,11 +9,10 @@ const About: React.FC = () => {
         <div className="about-paragraph">
           <h1>Our Story</h1>
           <p>
-            Old 82 Brew was started by Matthew Chu in 2023. Pellentesque finibus
-            eleifend quam, sit amet sollicitudin enim placerat at. Nullam
-            convallis pulvinar metus, a efficitur diam volutpat nec. Suspendisse
-            potenti. Donec aliquam facilisis justo, sed facilisis ex vestibulum
-            vitae.
+            Old 82 Brew was started by ... 2023. Pellentesque finibus eleifend
+            quam, sit amet sollicitudin enim placerat at. Nullam convallis
+            pulvinar metus, a efficitur diam volutpat nec. Suspendisse potenti.
+            Donec aliquam facilisis justo, sed facilisis ex vestibulum vitae.
           </p>
         </div>
         <img src={image1} alt="owner" />
