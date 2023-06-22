@@ -6,6 +6,7 @@ import Rewards from './components/Rewards/Rewards'
 import Visit from './components/Visit/Visit'
 import footer from './assets/logo.jpg'
 import { useState } from 'react'
+import { Link } from 'react-scroll'
 
 const App: React.FC = () => {
   const [active, setActive] = useState<boolean>(false)
@@ -26,9 +27,11 @@ const App: React.FC = () => {
             <Rewards />
             <Visit />
             <footer>
-              <a href="#hero">
-                <img src={footer} />
-              </a>
+              <Link to="hero">
+                <a href="#hero">
+                  <img src={footer} />
+                </a>
+              </Link>
             </footer>
           </>
         ) : (

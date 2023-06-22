@@ -9,7 +9,7 @@ interface Props {
 
 const Hero: React.FC<Props> = ({ handleActive, active }: Props) => {
   return (
-    <div className="background">
+    <div className="background" id="hero">
       {active ? (
         <MobileNav handleActive={handleActive} />
       ) : (
